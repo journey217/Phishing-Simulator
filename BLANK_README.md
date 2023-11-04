@@ -75,23 +75,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact us
 
-Jeremy Lawson - jwlawson@buffalo.edu
-Journey Spratt - journeys@buffalo.edu
-Matthew Prier - mprier@buffalo.edu
+Jeremy Lawson - jwlawson@buffalo.edu<br />
+Journey Spratt - journeys@buffalo.edu<br />
+Matthew Prier - mprier@buffalo.edu<br />
 Sander Shi - sandersh@buffalo.edu
 
 Project Link: [https://github.com/UBH-Fall2023/ubh-fall2023-journey217](https://github.com/UBH-Fall2023/ubh-fall2023-journey217)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
