@@ -54,10 +54,7 @@ In case you couldnt tell from the title, this is a phishing scam. We copied the 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
@@ -70,10 +67,7 @@ Sander Shi - sandersh@buffalo.edu
 
 Project Link: [https://github.com/UBH-Fall2023/ubh-fall2023-journey217](https://github.com/UBH-Fall2023/ubh-fall2023-journey217)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
