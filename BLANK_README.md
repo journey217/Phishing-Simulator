@@ -66,10 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
+In case you couldnt tell from the title, this is a phishing scam. We copied the ubhacking.com website by simply inspecting the oage and copying the HTML and CSS, which was easily available. From there, we adjusted some buttons and links do direct potential victims to our fake login page. When a user attempts to login, as long as they've enetered a username/email and password, we log their login information into a database and driect them to the real login page. This way victims should be unaware that they have ahd their infomraiton stolen.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -87,37 +84,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,11 +142,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Contact us
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Jeremy Lawson - jwlawson@buffalo.edu
+Journey Spratt - journeys@buffalo.edu
+Matthew Prier - mprier@buffalo.edu
+Sander Shi - sandersh@buffalo.edu
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/UBH-Fall2023/ubh-fall2023-journey217](https://github.com/UBH-Fall2023/ubh-fall2023-journey217)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
