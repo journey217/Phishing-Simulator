@@ -1,0 +1,153 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="ROBOTS" content="NOODP" />
+
+  <meta name="description" content="A one-click registration system for Hackers. Brought to you by Major League Hacking, the Official Student Hackathon League.">
+
+  <meta property="og:site_name" content="Login with MLH" />
+  <meta property="og:title" content="Login with MLH - One Click Registration" />
+  <meta property="og:description" content="A one-click registration system for Hackers. Brought to you by Major League Hacking, the Official Student Hackathon League."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://my.mlh.io/assets/shared/logos/my-mlh-facebook-a5cd92cae561c4131a86142f4693f414356dba0377d2b8f275d722cdd09081dc.jpg" />
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="628" />
+  <meta property="og:url" content="https://my.mlh.io/users/login" />
+
+  <title>Login with MLH - One Click Registration</title>
+
+  <link rel="shortcut icon" href="https://my.mlh.io/assets/favicon-33179e1f6f6e2340b101496509c0a8af0a8c019bdbc8ec075e93b937fd6db036.ico" />
+  <link rel="stylesheet" media="all" href="https://my.mlh.io/assets/application-7f2536c660c6cde2a34da36faa3f6e40138fe4b2ba0c19984b1086fb48194902.css" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="G+ghLDRW2mByoNataJMDSDgWhpD4dMz3BDy2pibTPiF/ZDGg+Kv5Q+t6Ra4BlbgVwM4qMO+g98DZJRUJCb++dw==" />
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+    <script>
+      !function(){var e=window.analytics=window.analytics||[];if(!e.initialize){if(e.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{e.invoked=!0,e.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"],e.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),e.push(a),e}};for(var t=0;t<e.methods.length;t++){var a=e.methods[t];e[a]=e.factory(a)}e.load=function(t,a){var i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="https://cogcdn.mlh.io/cog.js/v1/"+t+"/cog.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(i,n),e._loadOptions=a},e._writeKey="4XbOfnbD0FvXRfHLfQE9kRaI9MhAgV1c",e._cdn="https://cogcdn.mlh.io",e.SNIPPET_VERSION="4.15.3",e.load("4XbOfnbD0FvXRfHLfQE9kRaI9MhAgV1c",{integrations:{"Segment.io":{apiHost:"cog.mlh.io/v1"}}}),e.page()}}}();
+    </script>
+
+  <!--
+     __  __       _              _                                   _    _            _    _
+    |  \/  |     (_)            | |                                 | |  | |          | |  (_)
+    | \  / | __ _ _  ___  _ __  | |     ___  __ _  __ _ _   _  ___  | |__| | __ _  ___| | ___ _ __   __ _
+    | |\/| |/ _` | |/ _ \| '__| | |    / _ \/ _` |/ _` | | | |/ _ \ |  __  |/ _` |/ __| |/ / | '_ \ / _` |
+    | |  | | (_| | | (_) | |    | |___|  __/ (_| | (_| | |_| |  __/ | |  | | (_| | (__|   <| | | | | (_| |
+    |_|  |_|\__,_| |\___/|_|    |______\___|\__,_|\__, |\__,_|\___| |_|  |_|\__,_|\___|_|\_\_|_| |_|\__, |
+                _/ |                               __/ |                                             __/ |
+               |___|                              |____|                                            |____|
+  !-->
+</head>
+<body class="users-sessions users-sessions-new">
+    
+  <div class="bg-near-white page-fill py-5">
+    <div class="mlh-modal col-sm-10 col-md-8 col-lg-6 col-xl-4 mx-auto">
+      <section class="header text-center mb-4 mt-4">
+  <div>
+    <a class="link-reset font-size-3 poppins text-near-black" href="/">
+      <img class="mb-4" style="height:38px;" src="https://my.mlh.io/assets/shared/logos/mlh-dark-gray-beca4e5e36d107ec7de62822040809b0bab77eb9e5888d7ba322de2d942d6183.svg" />
+</a>  </div>
+  <h3 class="font-size-3 text-normal poppins text-near-black" style="font-size:28px;">
+    Login with MLH
+  </h3>
+</section>
+
+      <div class="card py-4">
+    <div class="text-center">
+      <img class="avatar avatar-lg bg-light-gray" src="https://s3.amazonaws.com/my.mlh.io/applications/logos/000/001/149/thumb/logo-bordered.png?1590824356" />
+      <div class="font-size-4 mt-3">
+        Sign in to <strong>MLH</strong> to continue to <strong>UBHacking</strong>.
+      </div>
+      <hr/>
+    </div>
+  <form class="submit-button" id="new_user" action="/users/login" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lwDN4lrhE2XwWnLYq0s4i4m/czsKl50hQXC13r+V8yrzjN1ulhwwRmmA4dvCTYPWcWffmx1DphacaRZxkPlzfA==" />
+    <div class="form-group required field ">
+      <label class="label" for="user_email">Email</label>
+      <input class="input" required="required" autofocus="autofocus" placeholder="you@your-domain.com" type="email" value="" name="user[email]" id="user_email" />
+    </div>
+
+    <div class="form-group required field ">
+      <div class="d-flex justify-content-between">
+        <label class="label" for="user_password">Password</label>
+        <a href="/users/password/new">Forgot password?</a>
+      </div>
+      <input class="input" required="required" pattern=".{8,}" title="Must be a minimum of 8 characters" autocomplete="off" placeholder="Shhh! This is super secret." type="password" name="user[password]" id="user_password" />
+    </div>
+
+      <div class="d-flex align-items-center">
+        <input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
+        <label class="label mb-0 ml-2" for="user_remember_me">Keep me signed in</label>
+      </div>
+
+    <div class="actions mt-3 py-2">
+      <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+      <div class="on-submit-button-press"></div>
+    </div>
+</form></div>
+
+
+        <div class="border border-radius-3 py-2 text-center mt-3">
+    Not a member? <a href="/users/register">Sign up now</a>.
+  </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://my.mlh.io/assets/application-02d4b482cda0726a177d3c6531a021a8482d826cf97c9e1255394509ef5280c7.js"></script>
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43729070-1', 'auto');
+  ga('send', 'pageview');
+
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
+</script>
+
+    <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '261635320842380');
+    fbq('track', "PageView");
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=261635320842380&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+  window.__insp = window.__insp || [];
+  __insp.push(['wid', 309974297]);
+  (function() {
+    function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', __ldinsp) : window.addEventListener('load', __ldinsp, false)) : __ldinsp();
+  })();
+</script>
+<!-- End Inspectlet Embed Code -->
+
+
+
+</body>
+</html>
+
