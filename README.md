@@ -61,7 +61,7 @@ In case you couldnt tell from the title, this is a phishing scam. We copied the 
 
 Jeremy Lawson - jwlawson@buffalo.edu<br />
 Journey Spratt - journeys@buffalo.edu<br />
-Matthew Prier - mprier@buffalo.edu<br />
+Matthew Prier - mrprier@buffalo.edu<br />
 Sander Shi - sandersh@buffalo.edu
 
 Project Link: [https://github.com/UBH-Fall2023/ubh-fall2023-journey217](https://github.com/UBH-Fall2023/ubh-fall2023-journey217)
