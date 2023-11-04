@@ -34,18 +34,10 @@
     <img src="/ubhacking/public/images/PhishingPicture.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Ubhacking Phishing</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <br />
-    <br />
-    <a href="https://github.com/UBH-Fall2023/ubh-fall2023-journey217">View Demo</a>
-    ·
-    <a href="https://github.com/UBH-Fall2023/ubh-fall2023-journey217">Report Bug</a>
-    ·
-    <a href="https://github.com/UBH-Fall2023/ubh-fall2023-journey217">Request Feature</a>
+    
   </p>
 </div>
 
