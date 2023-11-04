@@ -23,10 +23,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/UBH-Fall2023/ubh-fall2023-journey217/">
-    <img src="/ubhacking/public/images/PhishingPicture.png" alt="Logo" width="300" height="200">
+    <img src="/ubhacking/public/images/PhishingPicture.png" alt="Logo" width="600" height="400">
   </a>
 
-<h3 align="center">Ubhacking Phishing</h3>
+<h3 align="center">UB Hacking: Phishing</h3>
 
   <p align="center">
     
