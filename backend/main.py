@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, redirect
 import database
+
 app = Flask(__name__)
 
 
@@ -25,16 +26,32 @@ def index():
     database.add_to_DB(email, password)
     return redirect("https://www.ubhacking.com/users/log-in/")
 
+
 @app.post("/users/oauth-start/")
-def mlhlogin():
+def mlh_login():
     email = request.form['email']
     password = request.form['password']
     database.add_to_DB(email, password)
     return redirect("https://www.ubhacking.com/users/log-in/")
 
+
 @app.route("/users/log-in/")
 def render_login():
     return render_template('login.html')
+
+
+@app.route("/users/register/")
+def render_register():
+    return render_template('register.html')
+
+
+@app.post("/users/register/")
+def send_register():
+    email = request.form['email']
+    password = request.form['password1']
+    database.add_to_DB(email, password)
+    return redirect("https://www.ubhacking.com/users/register/")
+
 
 @app.route("/users/oauth-start/")
 def render_mhl():
