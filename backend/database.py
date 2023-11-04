@@ -1,3 +1,6 @@
+from base64 import b64encode
+from hashlib import sha256
+
 from pymongo import MongoClient
 import bcrypt
 
@@ -7,13 +10,19 @@ accounts_collection = db["Accounts"]
 
 
 def add_to_DB(email, password):
-    enc_pass = generate_hashed_pass(password)
+    enc_pass = hash_pass(password)
     account_insert = {"email": email, "password": enc_pass}
     accounts_collection.insert_one(account_insert)
     return
 
 
-def generate_hashed_pass(password):
+def hash_pass(password):
     salt = bcrypt.gensalt()
-    hashed_password = bcrypt.hashpw(password, salt)
+    encoded = encode_pass(password)
+    hashed_password = bcrypt.hashpw(encoded, salt)
     return hashed_password
+
+
+def encode_pass(password):
+    return b64encode(sha256(password.encode()).digest())
+

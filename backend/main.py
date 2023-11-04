@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template, redirect
-from backend import database
+import database
 app = Flask(__name__)
 
 
