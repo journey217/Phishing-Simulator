@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/UBH-Fall2023/ubh-fall2023-journey217/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
