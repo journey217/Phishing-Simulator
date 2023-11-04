@@ -39,7 +39,6 @@
 ## About The Project
 
 In case you couldnt tell from the title, this is a phishing scam. We copied the ubhacking.com website onto our own website (ubhacking.tech) by simply inspecting the page and copying the HTML and CSS, which was easily available. From there, we adjusted some buttons and links do direct potential victims to our fake login page(also taken from the real website). When a user attempts to login, as long as they've enetered a username/email and password, we copy their login information into a database and driect them to the real login page. This way victims should be unaware that they have had their information stolen.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
