@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/UBH-Fall2023/ubh-fall2023-journey217/">
-    <img src="/ubhacking/public/images/PhishingPicture.png" alt="Logo" width="80" height="80">
+    <img src="/ubhacking/public/images/PhishingPicture.png" alt="Logo">
   </a>
 
 <h3 align="center">Ubhacking Phishing</h3>
