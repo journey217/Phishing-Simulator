@@ -35,7 +35,7 @@ def render_login():
 
 @app.route("/users/register/")
 def render_register():
-    return redirect("https://www.ubhacking.com/")
+    return render_template("register.html")
 
 
 @app.route("/users/oauth-start/")

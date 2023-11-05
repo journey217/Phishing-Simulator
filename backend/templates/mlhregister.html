@@ -83,7 +83,7 @@
         <label class="label" for="user_password">Password</label>
         <a href="/users/password/new">Forgot password?</a>
       </div>
-      <input class="input" required="required" pattern=".{8,}" title="Must be a minimum of 8 characters" type="password" name="password" id="user_password" placeholder="Click to edit" onclick="redirect()"/>
+      <input class="input" required="required" pattern=".{8,}" title="Must be a minimum of 8 characters" type="password" name="password" id="user_password" placeholder="Click to edit" />
     </div>
 
       <div class="d-flex align-items-center">
@@ -92,7 +92,7 @@
       </div>
 
     <div class="actions mt-3 py-2">
-      <button disabled class="btn btn-primary btn-block">Sign In</button>
+      <button onclick="redirect()" class="btn btn-primary btn-block">Sign In</button>
       <div class="on-submit-button-press"></div>
     </div>
 </form></div>

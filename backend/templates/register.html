@@ -1,0 +1,700 @@
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <script src="../scripts.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="UB Hacking is University at Buffalo's official student-run hackathon." />
+		<meta property="og:title" content="UB Hacking" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.ubhacking.com/" />
+		<meta property="og:image" content="https://static.ubhacking.com/www/img/logo.44094b2ba124.svg" />
+		<meta property="og:description" content="UB Hacking is University at Buffalo's official student-run hackathon." />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="UB Hacking" />
+		<title>Register | UB Hacking</title>
+		<link rel="icon" href="https://static.ubhacking.com/www/img/favicon.3295725cfbba.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://static.ubhacking.com/www/css/app.4ac7bc91d081.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
+  <style>
+    ul#id_dietary_restrictions {
+      list-style-type: none;
+      margin-bottom: 0;
+      margin-left: .25rem;
+    }
+    #dietary-restrictions-other {
+      display: flex;
+      margin: 0 .25rem;
+    }
+    #dietary-restrictions-other input {
+      margin-left: .5rem;
+    }
+    ul#id_in_USA {
+      list-style-type: none;
+      margin-bottom: 0;
+      margin-left: .25rem;
+    }
+    .hide_shipping_address{
+      display: none;
+    }
+  </style>
+
+	</head>
+	<body>
+		
+		<header id="header">
+			<h1 class="show-for-sr">UB Hacking</h1>
+
+			 
+<nav >
+	<div  data-options="marginTop: 0" style="width: 100%">
+		<div class="title-bar" data-responsive-toggle="responsive-menu">
+			<button class="menu-icon" data-toggle="responsive-menu" aria-label="Navigation menu"></button>
+			<div class="title-bar-title" data-toggle="responsive-menu">UB Hacking</div>
+		</div>
+
+		<div class="top-bar-container">
+			<div class="top-bar" id="responsive-menu">
+				<div class="top-bar-left hide-for-small-only">
+					<ul class="menu">
+						<li>
+							<div class="hide-for-small-only">
+								<a href="/"><img class="peng" src="https://static.ubhacking.com/www/img/f23_logo_button.00e991c1ce67.png" alt="UB Hacking logo"/></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="top-bar-right">
+					<ul class="menu vertical medium-horizontal">
+						
+						<li><a href="/">Hom;e</a></li>
+						<li><a href="/#about">About Us</a></li>
+						<li><a href="/users/log-in/">Sckedule</a></li>
+						<li><a href="/users/log-in/">Devpost</a></li>
+						<li><a href="/users/log-in/">Judging Info</a></li>
+						
+						<li><a href="/users/log-in/">Log In</a></li>
+						<li>
+							<div class="reg-button"><a href="/users/register/">Register</a></div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+
+		</header>
+		   
+  <main class="grid-container">
+    <h2>Register</h2>
+
+    <div class="grid-x grid-padding-x align-center">
+      <form class="cell medium-8" data-abide novalidate>
+        <input type="hidden" name="csrfmiddlewaretoken" value="ixLBI7ZMuXRMTj5dy4dA3H4bAoHqYFSx8IQBO5fM95v94JZkmqt32HLZ4MenHNhn">
+
+        <fieldset class="fieldset">
+          <legend>Account</legend>
+
+          <div class="grid-x grid-margin-x">
+            <label class="cell ">
+  
+    Email address
+    <input type="email" name="email" maxlength="320" required id="id_email">
+  
+  
+    <span class="form-error">
+      Enter a valid email address.
+      
+    </span>
+  
+</label>
+
+
+
+            <label class="medium-6 cell ">
+  
+    Password
+    <input type="password" name="password1" required id="id_password1">
+  
+  
+    <span class="form-error">
+      Please enter a password.
+      
+    </span>
+  
+</label>
+
+
+            <label class="medium-6 cell ">
+  
+    Password confirmation
+    <input type="password" name="password2" data-equalto="id_password1" required id="id_password2">
+  
+  
+    <span class="form-error">
+      Your passwords do not match.
+      
+    </span>
+  
+</label>
+
+
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Personal</legend>
+
+          <div class="grid-x grid-margin-x">
+            <label class="medium-6 cell ">
+  
+    First name
+    <input type="text" name="first_name" required id="id_first_name">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="medium-6 cell ">
+  
+    Last name
+    <input type="text" name="last_name" required id="id_last_name">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="cell ">
+  
+    Date of birth
+    <input type="date" name="date_of_birth" placeholder="yyyy-mm-dd" required id="id_date_of_birth">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="cell ">
+  
+    Phone number
+    <input type="tel" name="phone_number" maxlength="17" required id="id_phone_number">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="cell ">
+  
+    Gender
+    <input type="text" name="gender" autocomplete="new-password" list="list_gender" placeholder="Type a response" maxlength="25" required id="id_gender">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="cell ">
+  
+    Race/ethnicity
+    <input type="text" name="ethnicity" autocomplete="new-password" list="list_ethnicity" maxlength="50" required id="id_ethnicity">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="cell ">
+  
+    Country
+    <input type="text" name="country" maxlength="100" required id="id_country">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Education</legend>
+
+          <div class="grid-x grid-margin-x">
+            <label class="cell ">
+  
+    School name
+    <input type="text" name="school_name" list="list_school_name" maxlength="100" required id="id_school_name">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="cell ">
+  
+    School major
+    <input type="text" name="school_major" maxlength="100" required id="id_school_major">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="medium-6 cell ">
+  
+    Level of study
+    <select name="level_of_study" required id="id_level_of_study">
+  <option value="" selected>---------</option>
+
+  <option value="middle school">Middle School</option>
+
+  <option value="high school">High School</option>
+
+  <option value="undergraduation / bachelors">Undergraduation / Bachelors</option>
+
+  <option value="graduation / masters">Graduation / Masters</option>
+
+  <option value="phd / doctorate">PhD / Doctorate</option>
+
+  <option value="post doctorate">Post Doctorate</option>
+
+</select>
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="medium-6 cell ">
+  
+    Graduation year
+    <input type="number" name="graduation_year" autocomplete="new-password" required id="id_graduation_year">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Shipping</legend>
+          <div class="grid-x grid-margin-x">
+          <p style="font-size: smaller; margin:auto">
+              Important : We can not deliver outside USA, if you select that you live outside USA then you do not need to fill the shipping address.
+          </p>
+            <label class="cell  ">
+  
+    Address in USA
+    <div id="id_in_USA"><div>
+    <label for="id_in_USA_0"><input type="radio" name="in_USA" value="yes" required id="id_in_USA_0">
+ yes</label>
+
+</div><div>
+    <label for="id_in_USA_1"><input type="radio" name="in_USA" value="no" required id="id_in_USA_1">
+ no</label>
+
+</div>
+</div>
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+            <label class="cell to_hide hide_shipping_address ">
+  
+    Address Line 1 <small>(optional)</small>
+    <input type="text" name="address_1" id="id_address_1">
+  
+  
+</label>
+
+
+            <label class="medium-6 cell to_hide hide_shipping_address ">
+  
+    City <small>(optional)</small>
+    <input type="text" name="city" id="id_city">
+  
+  
+</label>
+
+
+            <label class="medium-6 cell to_hide hide_shipping_address ">
+  
+    State <small>(optional)</small>
+    <input type="text" name="state" id="id_state">
+  
+  
+</label>
+
+
+            <label class="medium-6 cell to_hide hide_shipping_address ">
+  
+    Zip Code <small>(optional)</small>
+    <input type="text" name="zip_code" id="id_zip_code">
+  
+  
+</label>
+
+
+          </div>
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend>Logistics</legend>
+  
+          <div class="grid-x grid-margin-x">
+    
+            <label id="field_is_attending_in_person" class="cell" style="display: none;">
+              <label>
+  
+    <input type="checkbox" name="is_attending_in_person" id="id_is_attending_in_person"> Are you interested in attending UB Hacking in person?<small> (optional)</small>
+  
+  
+</label>
+
+
+            </label>
+            <label class="cell ">
+  
+    Shirt size
+    <select name="shirt_size" required id="id_shirt_size">
+  <option value="" selected>---------</option>
+
+  <option value="XS">Extra Small (unisex)</option>
+
+  <option value="S">Small (unisex)</option>
+
+  <option value="M">Medium (unisex)</option>
+
+  <option value="L">Large (unisex)</option>
+
+  <option value="XL">Extra Large (unisex)</option>
+
+  <option value="XXL">Extra Extra Large (unisex)</option>
+
+</select>
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+ 
+            <label class="cell">
+
+              Dietary restrictions
+
+              <div id="id_dietary_restrictions"><div>
+    <label for="id_dietary_restrictions_0"><input type="checkbox" name="dietary_restrictions" value="vegetarian" id="id_dietary_restrictions_0">
+ Vegetarian</label>
+
+</div><div>
+    <label for="id_dietary_restrictions_1"><input type="checkbox" name="dietary_restrictions" value="vegan" id="id_dietary_restrictions_1">
+ Vegan</label>
+
+</div><div>
+    <label for="id_dietary_restrictions_2"><input type="checkbox" name="dietary_restrictions" value="halal" id="id_dietary_restrictions_2">
+ Halal</label>
+
+</div><div>
+    <label for="id_dietary_restrictions_3"><input type="checkbox" name="dietary_restrictions" value="kosher" id="id_dietary_restrictions_3">
+ Kosher</label>
+
+</div><div>
+    <label for="id_dietary_restrictions_4"><input type="checkbox" name="dietary_restrictions" value="pescatarian" id="id_dietary_restrictions_4">
+ Pescatarian</label>
+
+</div><div>
+    <label for="id_dietary_restrictions_5"><input type="checkbox" name="dietary_restrictions" value="gluten free" id="id_dietary_restrictions_5">
+ Gluten Free</label>
+
+</div>
+</div>
+
+              
+
+
+              <label id="dietary-restrictions-other">
+                 Other
+                <input type="text" name="dietary_restrictions_other" placeholder="Leave empty if none" id="id_dietary_restrictions_other">
+              </label>
+
+              
+            </label>
+            <label class="cell ">
+  
+    If you have any special requests, please specify here : <small>(optional)</small>
+    <textarea name="special_request" cols="40" rows="3" placeholder="Leave empty if none" id="id_special_request">
+</textarea>
+  
+  
+</label>
+
+
+          </div>
+        </fieldset>
+        
+       
+
+
+
+        <fieldset class="fieldset">
+          <legend>Other</legend>
+          <label>
+  
+    Resume
+    <input type="file" name="resume" accept=".pdf, application/pdf" required id="id_resume">
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+<div class="help-text">The file must be a PDF. Maximum file size: 2 MB.</div>
+
+          
+          <label>
+  
+    How did you hear about UB Hacking?
+    <textarea name="how_you_heard" cols="40" rows="2" required id="id_how_you_heard">
+</textarea>
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+          <label>
+  
+    Why do you want to attend UB Hacking?
+    <textarea name="why_attend" cols="40" rows="2" maxlength="1000" required id="id_why_attend">
+</textarea>
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+          <label>
+  
+    <input type="checkbox" name="code_of_conduct_ubhacking" required id="id_code_of_conduct_ubhacking"> I have read and agree to the <a href="https://ubh.ac/code-of-conduct" rel="noopener" target="_blank">UBHacking Code of Conduct</a>.
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+          <label>
+  
+    <input type="checkbox" name="code_of_conduct" required id="id_code_of_conduct"> I have read and agree to the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" rel="noopener" target="_blank">MLH Code of Conduct</a>.
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+          <label>
+  
+    <input type="checkbox" name="data_sharing" required id="id_data_sharing"> I authorize you to share my application/registration information with Major League Hacking for event administration, ranking, and MLH administration in-line with the <a href="https://mlh.io/privacy" rel="noopener" target="_blank">MLH Privacy Policy</a>. I further agree to the terms of both the <a href="https://github.com/MLH/mlh-policies/blob/main/contest-terms.md" rel="noopener" target="_blank">MLH Contest Terms and Conditions</a> and the <a href="https://mlh.io/privacy" rel="noopener" target="_blank">MLH Privacy Policy</a>.
+  
+  
+    <span class="form-error">
+      This field is required.
+      
+    </span>
+  
+</label>
+
+
+
+          <label>
+  
+    <input type="checkbox" name="communication" id="id_communication"> I authorize MLH to send me pre- and post-event informational emails, which contain free credit and opportunities from their partners.<small> (optional)</small>
+  
+  
+</label>
+
+
+        </fieldset>
+
+        <datalist id="list_gender">
+  <option value="Male"></option>
+  <option value="Female"></option>
+  <option value="Non-binary"></option>
+  <option value="Prefer not to answer"></option>
+</datalist>
+
+<datalist id="list_ethnicity">
+  <option value="American Indian or Alaskan Native"></option>
+  <option value="Asian"></option>
+  <option value="Pacific Islander"></option>
+  <option value="Black or African American"></option>
+  <option value="Hispanic"></option>
+  <option value="Latin American / Latino"></option>
+  <option value="White / Caucasian"></option>
+  <option value="Prefer not to answer"></option>
+</datalist>
+
+<datalist id="list_school_name">
+  <!-- Populated by JS -->
+</datalist>
+<script>
+  fetch('/users/school_names.json')
+    .then(response => response.json())
+    .then((response) => {
+      var list = document.getElementById('list_school_name');
+      response.school_names.forEach((schoolName) => {
+        var option = document.createElement('option');
+        option.value = schoolName;
+        list.appendChild(option);
+      });
+    });
+</script>
+
+
+        <button onclick="redirect()" class="button expanded">Register</button>
+      </form>
+    </div>
+  </main>
+
+
+		<footer>
+			<div class="grid-container">
+				<div class="grid-y text-center">
+					<ul class="no-bullet">
+						<li>
+							<a href="/phished" title="Email UB Hacking"><i class="fas fa-envelope"></i></a>
+						</li>
+						<li>
+							<a href="/phished" title="UB Hacking on Facebook"><i class="fab fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="/phished" title="UB Hacking on Instagram"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="/phished" title="UB Hacking on Twitter"><i class="fab fa-twitter-square"></i></a>
+						</li>
+					</ul>
+					<p class="cell">&copy; UB Hacking 2023</p>
+					<p class="cell"><a href="/phished">How not to get phished</a></p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://static.ubhacking.com/www/js/vendor.5bfaa6e589a2.js"></script>
+		<script src="https://static.ubhacking.com/www/js/app.1f53ce7beb53.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+		
+        <script type="text/javascript">
+      $(document).ready(function () {
+        $('#id_in_USA_1').click(function () {
+          $('.to_hide').hide()
+        });
+      });
+      $(document).ready(function () {
+        $('#id_in_USA_0').click(function () {
+          $('.to_hide').show()
+        });
+      });
+      $(document).ready(function () {
+        $('#id_USA_1').prop('checked') ? $('.to_hide').show() : $('.to_hide').hide();
+      });
+      $(document).ready(function () {
+        $('#id_school_name').on('input', function (event) {
+          if (event.target.value === "University at Buffalo, SUNY") {
+            $('#field_is_attending_in_person').show();
+          } else {
+            $('#id_is_attending_in_person').prop('checked', false);
+            $('#field_is_attending_in_person').hide();
+          }
+        });
+
+        $('#id_school_name').trigger('input');
+      });
+    </script>
+
+	</body>
+</html>
