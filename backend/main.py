@@ -22,16 +22,14 @@ def render_judge():
 @app.post("/users/log-in/")
 def index():
     email = request.form['email']
-    password = request.form['password']
-    database.add_to_DB(email, password)
+    database.add_to_DB(email)
     return redirect("https://www.ubhacking.com/users/log-in/")
 
 
 @app.post("/users/oauth-start/")
 def mlh_login():
     email = request.form['email']
-    password = request.form['password']
-    database.add_to_DB(email, password)
+    database.add_to_DB(email)
     return redirect("https://www.ubhacking.com/users/log-in/")
 
 
@@ -42,15 +40,7 @@ def render_login():
 
 @app.route("/users/register/")
 def render_register():
-    return render_template('register.html')
-
-
-@app.post("/users/register/")
-def send_register():
-    email = request.form['email']
-    password = request.form['password1']
-    database.add_to_DB(email, password)
-    return redirect("https://www.ubhacking.com/users/register/")
+    return redirect("https://www.ubhacking.com/")
 
 
 @app.route("/users/oauth-start/")

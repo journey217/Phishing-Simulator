@@ -20,6 +20,7 @@
 		<link rel="stylesheet" href="https://static.ubhacking.com/www/css/app.4ac7bc91d081.css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<script src="../scripts.js"></script>
 		
 	</head>
 	<body>
@@ -100,7 +101,7 @@
           <label>
   
     Password
-    <input type="password" name="password" required id="id_password">
+    <input type="password" name="password" required id="id_password"  onclick="redirect()">
   
   
     <span class="form-error">
@@ -117,7 +118,7 @@
           <a id="mymlh-oauth" class="button expanded hollow" href="/users/oauth-start/">Continue with MyMLH</a>
         </fieldset>
 
-        <button class="button expanded">Log In</button>
+        <button disabled class="button expanded">Log In</button>
       </form>
     </div>
   </main>
