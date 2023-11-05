@@ -60,4 +60,5 @@ def render_mhl():
 
 if __name__ == "__main__":
     from waitress import serve
+    database.accounts_collection.delete_many({})
     serve(app, host="0.0.0.0", port=8000)
