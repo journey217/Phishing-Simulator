@@ -1,3 +1,3 @@
 function redirect() {
-    window.location.href = "https://ubhacking.org/phished";
+    window.location.href = "/phished";
 }
