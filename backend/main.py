@@ -5,8 +5,12 @@ app = Flask(__name__)
 
 @app.route("/users/scripts.js")
 def serve_script():
-    return send_from_directory(os.path.join(app.root_path, '.'),
-                               'scripts.js', mimetype='text/javascript')
+    return send_from_directory(os.path.join(app.root_path, '.'), 'scripts.js', mimetype='text/javascript')
+
+
+@app.route("/CSS/styles.css")
+def serve_css():
+    return send_from_directory(os.path.join(app.root_path, './CSS'), 'styles.css', mimetype='text/css')
 
 
 @app.route("/")

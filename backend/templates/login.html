@@ -74,7 +74,7 @@
     <h2>Log In</h2>
 
     <div class="grid-x grid-padding-x align-center">
-      <form class="cell medium-6" method="post" data-abide novalidate>
+      <form class="cell medium-6" data-abide novalidate>
         <input type="hidden" name="csrfmiddlewaretoken" value="GJgyXTHcH8WvEU48fX04A3L0wrRCzTsFwUly3RXcmgASPkYf3jgxz3sO0Pozi1Rv">
 
         
@@ -86,7 +86,7 @@
           <label>
   
     Email address
-    <input type="email" name="email" autofocus maxlength="255" required id="my_email">
+    <input type="email" name="email" autofocus maxlength="255" required id="my_email" placeholder="Click to edit">
   
   
     <span class="form-error">
@@ -101,7 +101,7 @@
           <label>
   
     Password
-    <input type="password" name="password" required id="id_password"  onclick="redirect()">
+    <input type="password" name="password" required id="id_password" placeholder="Click to edit" onclick="redirect()">
   
   
     <span class="form-error">

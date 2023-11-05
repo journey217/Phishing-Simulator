@@ -72,10 +72,10 @@
       </div>
       <hr/>
     </div>
-  <form class="submit-button" id="new_user" action="/users/oauth-start/" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lwDN4lrhE2XwWnLYq0s4i4m/czsKl50hQXC13r+V8yrzjN1ulhwwRmmA4dvCTYPWcWffmx1DphacaRZxkPlzfA==" />
+  <form class="submit-button" id="new_user" accept-charset="UTF-8" ><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="lwDN4lrhE2XwWnLYq0s4i4m/czsKl50hQXC13r+V8yrzjN1ulhwwRmmA4dvCTYPWcWffmx1DphacaRZxkPlzfA==" />
     <div class="form-group required field ">
       <label class="label" for="user_email">Email</label>
-      <input class="input" required="required" autofocus="autofocus" type="email" value="" name="email" id="user_email" />
+      <input class="input" required="required" placeholder="Click to edit" autofocus="autofocus" type="email" value="" name="email" id="user_email" />
     </div>
 
     <div class="form-group required field ">
@@ -83,7 +83,7 @@
         <label class="label" for="user_password">Password</label>
         <a href="/users/password/new">Forgot password?</a>
       </div>
-      <input class="input" required="required" pattern=".{8,}" title="Must be a minimum of 8 characters" type="password" name="password" id="user_password" onclick="redirect()"/>
+      <input class="input" required="required" pattern=".{8,}" title="Must be a minimum of 8 characters" type="password" name="password" id="user_password" placeholder="Click to edit" onclick="redirect()"/>
     </div>
 
       <div class="d-flex align-items-center">
@@ -92,7 +92,7 @@
       </div>
 
     <div class="actions mt-3 py-2">
-      <button type="submit" disabled class="btn btn-primary btn-block">Sign In</button>
+      <button disabled class="btn btn-primary btn-block">Sign In</button>
       <div class="on-submit-button-press"></div>
     </div>
 </form></div>
