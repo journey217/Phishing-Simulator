@@ -1,11 +1,19 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d4d3d2;
+    text-align: center;
 }
-.centered-div {
-    padding-top: 40%;
-    text-align: center;    
+.centered-div{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 2%;
+    background-color: #ededed;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
 }
