@@ -1,7 +1,12 @@
-from flask import Flask, request, render_template, redirect
-import database
-
+from flask import Flask, render_template, redirect, send_from_directory
+import os
 app = Flask(__name__)
+
+
+@app.route("/users/scripts.js")
+def serve_script():
+    return send_from_directory(os.path.join(app.root_path, '.'),
+                               'scripts.js', mimetype='text/javascript')
 
 
 @app.route("/")
@@ -19,22 +24,6 @@ def render_judge():
     return render_template("judging-info.html")
 
 
-@app.post("/users/log-in/")
-def index():
-    email = request.form['email']
-    password = request.form['password']
-    database.add_to_DB(email, password)
-    return redirect("https://www.ubhacking.com/users/log-in/")
-
-
-@app.post("/users/oauth-start/")
-def mlh_login():
-    email = request.form['email']
-    password = request.form['password']
-    database.add_to_DB(email, password)
-    return redirect("https://www.ubhacking.com/users/log-in/")
-
-
 @app.route("/users/log-in/")
 def render_login():
     return render_template('login.html')
@@ -42,15 +31,7 @@ def render_login():
 
 @app.route("/users/register/")
 def render_register():
-    return render_template('register.html')
-
-
-@app.post("/users/register/")
-def send_register():
-    email = request.form['email']
-    password = request.form['password1']
-    database.add_to_DB(email, password)
-    return redirect("https://www.ubhacking.com/users/register/")
+    return redirect("https://www.ubhacking.com/")
 
 
 @app.route("/users/oauth-start/")
@@ -58,7 +39,11 @@ def render_mhl():
     return render_template("mlhregister.html")
 
 
+@app.route("/phished")
+def render_phish():
+    return render_template("phished.html")
+
+
 if __name__ == "__main__":
     from waitress import serve
-    database.accounts_collection.delete_many({})
     serve(app, host="0.0.0.0", port=8000)
