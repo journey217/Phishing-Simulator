@@ -50,7 +50,7 @@ For our project, we simulated a phsihing attack. We copied the ubhacking.com web
 * Docker
 * Nginx
 * DigitalOcean
-* Squarespace (regretably)
+* Squarespace
 
 
 
