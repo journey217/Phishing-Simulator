@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-For our project, we simulated a phsihing attack. We copied the ubhacking.com website onto our own website (ubhacking.org) by simply inspecting the page and copying the HTML and CSS, which was easily available. From there, we adjusted some buttons, text, and links to direct potential victims to our fake login page(also taken from the real website). When a user attempts to login, they are redirected to an educational page with information about phishing.
+For our project, we simulated a phishing attack. We copied the ubhacking.com website onto our own website (ubhacking.org) by simply inspecting the page and copying the HTML and CSS, which was easily available. From there, we adjusted some buttons, text, and links to direct potential victims to a fake login page. When a user attempts to login, they are redirected to an educational page with information about phishing.
 
 
 
